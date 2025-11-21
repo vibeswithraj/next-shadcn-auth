@@ -2,17 +2,36 @@
 
 A beautiful, production-ready Next.js authentication template with shadcn/ui components, dark mode support, and form validation.
 
-## Quick Start
+## 🚀 Quick Start
 
-Create a new Next.js app with this template:
+### Option 1: Use as GitHub Template (Recommended)
 
-npx create-next-shadcn-auth my-app
+1. Click the **"Use this template"** button on GitHub
+2. Create a new repository from this template
+3. Clone your new repository:
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+4. Install dependencies:
+   npm install
+5. Run the development server:
+   
+   npm run dev
+
+### Option 2: Use with create-next-app
+
+npx create-next-app@latest my-app --example https://github.com/vibeswithraj/next-shadcn-auth
 cd my-app
 npm install
-npm run dev 
-That's it! Your app will be running on [http://localhost:3000](http://localhost:3000)
+npm run dev
 
-## Features
+### Option 3: Clone directly
+
+git clone https://github.com/vibeswithraj/next-shadcn-auth.git my-app
+cd my-app
+npm install
+npm run dev
+
+## ✨ Features
 
 - 🔐 **Authentication UI** - Sign in and Sign up forms with validation
 - 🎨 **shadcn/ui Components** - Pre-configured UI components
@@ -21,17 +40,3 @@ That's it! Your app will be running on [http://localhost:3000](http://localhost:
 - 📱 **Responsive Design** - Mobile-first, fully responsive
 - ⚡ **TypeScript** - Full type safety
 - 🎯 **Modern Stack** - Next.js 16, React 19, Tailwind CSS 4
-
-## Project Structure
-
-├── app/<br/>
-│   ├── public<br/>
-│   ├── signin/<br/>
-│   │   ├── page.tsx<br/>
-│   │   └── SigninForm.tsx<br/>
-│   ├── layout.tsx<br/>
-│   ├── page.tsx<br/>
-│   └── globals.css<br/>
-├── components/<br/>
-│   └─ ui<br/>
-│
