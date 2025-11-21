@@ -9,7 +9,7 @@ A beautiful, production-ready Next.js authentication template with shadcn/ui com
 1. Click the **"Use this template"** button on GitHub
 2. Create a new repository from this template
 3. Clone your new repository:
-   git clone https://github.com/vibeswithraj/your-repo-name.git
+   git clone https://github.com/vibeswithraj/next-shadcn-auth.git
    cd your-repo-name
 4. Install dependencies:
    npm install
