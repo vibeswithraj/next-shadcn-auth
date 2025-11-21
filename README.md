@@ -12,6 +12,7 @@ A beautiful, production-ready Next.js authentication template with shadcn/ui com
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
 4. Install dependencies:
+
    npm install
 5. Run the development server:
    
@@ -21,14 +22,18 @@ A beautiful, production-ready Next.js authentication template with shadcn/ui com
 
 npx create-next-app@latest my-app --example https://github.com/vibeswithraj/next-shadcn-auth
 cd my-app
+
 npm install
+
 npm run dev
 
 ### Option 3: Clone directly
 
 git clone https://github.com/vibeswithraj/next-shadcn-auth.git my-app
 cd my-app
+
 npm install
+
 npm run dev
 
 ## ✨ Features
